@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteRush - Delicious Food Delivered Fast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Bite<span>Rush</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Why Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Fresh, Hot Meals Delivered to Your Doorstep</h1>
+            <p>Craving something delicious? Order from our top-rated local kitchen and enjoy fast delivery in under 30 minutes.</p>
+            <a href="#features" class="cta-button">Order Now</a>
+        </div>
+        <div class="hero-image">
+            <!-- Menggunakan gambar gratis dari Unsplash -->
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80" alt="Delicious Gourmet Burger">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Why Choose BiteRush?</h2>
+        <div class="feature-container">
+            <div class="feature-card">
+                <h3>Fast Delivery</h3>
+                <p>Guaranteed hot and fresh delivery within 30 minutes anywhere in the city.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Fresh Ingredients</h3>
+                <p>We cook every order fresh using 100% organic, locally sourced ingredients.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Affordable Prices</h3>
+                <p>Restaurant-quality meals at student-friendly prices with daily discounts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <footer id="contact">
+        <h3>Contact & Order</h3>
+        <p>WhatsApp: +62 812-3456-7890 | Email: order@biterush.com</p>
+        <div class="social-links">
+            <a href="#">Instagram</a> | 
+            <a href="#">TikTok</a> | 
+            <a href="#">Facebook</a>
+        </div>
+        <p class="copyright">&copy; 2026 BiteRush Online Food. Built for Informatics Engineering Project.</p>
+    </footer>
+
+</body>
+</html>
